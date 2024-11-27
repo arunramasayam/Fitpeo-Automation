@@ -3,8 +3,8 @@
 # Prerequisites
 To run this project, ensure you have the following installed:
 
-Java 8 or higher.
-Maven (for dependency management and running tests).
+Java 8 or higher,
+Maven (for dependency management and running tests),
 Eclipse or IntelliJ IDEA.
 
 
