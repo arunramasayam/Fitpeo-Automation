@@ -13,8 +13,11 @@ Eclipse or IntelliJ IDEA.
 Import the Project:
 
 File → Import → Git → Projects from Git.
+
 In the Clone URI field, paste the GitHub repository URL.
+
 Select Import as General Project and click Finish.
+
 Convert to Maven Project:
 
 Right-click on the imported project → Configure → Convert to Maven Project.
@@ -24,11 +27,13 @@ Right-click on the imported project → Configure → Convert to Maven Project.
 Run the Tests:
 
 Navigate to /src/test/java/runners/.
+
 Right-click on CucumberTestRunner.java → Run As → TestNG Test.
 
 Log files:
 
 locate target folder in project explorer and right click >Show In > System Explorer
+
 open 'cucumber-reports.html' in browser.
 
 
@@ -41,10 +46,12 @@ Import the project:
 Run the Tests:
 
 Navigate to /src/test/java/runners/.
+
 Right-click on CucumberTestRunner.java →  Run CucumberTestRunner.
 
 Log files:
 
 locate target folder in project explorer and expand it.
+
 right click 'cucumber-reports.html'>Open In>Browser>Chrome.
 
