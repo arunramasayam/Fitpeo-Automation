@@ -8,8 +8,17 @@ Maven (for dependency management and running tests)
 Eclipse or IntelliJ IDEA
 
 
-# Eclipse
+# Steps to Import and Run the Project in Eclipse:
 
-Right click File->Import->select 'projects from git'->Clone URl->paste github repo url in URI field->Finish
-once project is imported, right click on project name and configure>Convert to Maven project
-To execute goto /src/test/java/runners folder and right click on 'CucumberTestRunner.java' run as 'TestNG'.
+Import the Project:
+
+Right-click on your workspace → File → Import → Git → Projects from Git.
+In the Clone URI field, paste the GitHub repository URL.
+Select Import as General Project and click Finish.
+Convert to Maven Project:
+
+Right-click on the imported project → Configure → Convert to Maven Project.
+Run the Tests:
+
+Navigate to /src/test/java/runners/.
+Right-click on CucumberTestRunner.java → Run As → TestNG Test.
