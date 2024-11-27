@@ -1,0 +1,10 @@
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore Maven target directory
+target/
+
+# Ignore TestNG output directory
+test-output/
