@@ -19,7 +19,13 @@ Convert to Maven Project:
 
 Right-click on the imported project → Configure → Convert to Maven Project.
 
-
 Run the Tests:
+
 Navigate to /src/test/java/runners/.
 Right-click on CucumberTestRunner.java → Run As → TestNG Test.
+
+# Steps to Import and Run the Project in Intellij:
+
+Import the project:
+
+Right
